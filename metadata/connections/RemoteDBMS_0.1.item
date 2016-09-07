@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_hWnbYEE4EeaP4ost8hrMQA" name="RemoteDBMS" id="__iNswEE3EeaP4ost8hrMQA" label="RemoteDBMS" dataPackage="_hXSJwEE4EeaP4ost8hrMQA _hXTX4EE4EeaP4ost8hrMQA _hXTX4UE4EeaP4ost8hrMQA _hXTX4kE4EeaP4ost8hrMQA" DatabaseType="MySQL" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://localhost:3306/?noDatetimeStringSync=true" dbVersionString="MARIADB" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL 语句须被指定" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_hWopgEE4EeaP4ost8hrMQA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_hW1d0EE4EeaP4ost8hrMQA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_hW_14EE4EeaP4ost8hrMQA" tag="Status" value=""/>
+    <taggedValue xmi:id="_hW_14UE4EeaP4ost8hrMQA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_hW_14kE4EeaP4ost8hrMQA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_hW_140E4EeaP4ost8hrMQA" tag="Description" value=""/>
+    <taggedValue xmi:id="_hW_15EE4EeaP4ost8hrMQA" tag="Author" value=""/>
+    <taggedValue xmi:id="_hW_15UE4EeaP4ost8hrMQA" tag="otherParameter"/>
+    <taggedValue xmi:id="_hXC5MEE4EeaP4ost8hrMQA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_hXC5MUE4EeaP4ost8hrMQA" tag="DB ProductVersion" value="10.1.14-MariaDB"/>
+    <taggedValue xmi:id="_hXC5MkE4EeaP4ost8hrMQA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_hWopgUE4EeaP4ost8hrMQA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hXSJwEE4EeaP4ost8hrMQA" name="information_schema" dataManager="_hWnbYEE4EeaP4ost8hrMQA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hXTX4EE4EeaP4ost8hrMQA" name="mysql" dataManager="_hWnbYEE4EeaP4ost8hrMQA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hXTX4UE4EeaP4ost8hrMQA" name="performance_schema" dataManager="_hWnbYEE4EeaP4ost8hrMQA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hXTX4kE4EeaP4ost8hrMQA" name="test" dataManager="_hWnbYEE4EeaP4ost8hrMQA"/>
+</xmi:XMI>
